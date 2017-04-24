@@ -16,5 +16,25 @@ namespace MiniKeyboardb6042054
         {
             InitializeComponent();
         }
+
+        private void ModeButton_Click(object sender, EventArgs e)
+        {
+            if (ModeStatus = ("Multi-Press"))
+            {
+            ModeStatus.Text = "Prediction";
+            }
+            else if (ModeStatus = ("Prediction")) 
+            {
+            ModeStatus.Text = "Multi-Press";
+            }
+            
+
+        }
+
+        private void ModeStatus_TextChanged(object sender, EventArgs e)
+        {
+            ModeStatus.Text = "Multi-Press";
+
+        }
     }
 }

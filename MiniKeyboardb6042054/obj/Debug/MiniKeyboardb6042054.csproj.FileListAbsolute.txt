@@ -1,1 +1,5 @@
 f:\mywork\visual studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\bin\Debug\MiniKeyboardb6042054.exe.config
+f:\mywork\visual studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.csprojResolveAssemblyReference.cache
+f:\mywork\visual studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.Form1.resources
+f:\mywork\visual studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.Properties.Resources.resources
+f:\mywork\visual studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.csproj.GenerateResource.Cache

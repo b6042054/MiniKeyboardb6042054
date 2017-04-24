@@ -47,7 +47,7 @@
             this.Char11 = new System.Windows.Forms.Button();
             this.EnterButton = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.ModeStatus = new System.Windows.Forms.TextBox();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.SuspendLayout();
             // 
@@ -68,6 +68,7 @@
             this.ModeButton.TabIndex = 1;
             this.ModeButton.Text = "Mode";
             this.ModeButton.UseVisualStyleBackColor = false;
+            this.ModeButton.Click += new System.EventHandler(this.ModeButton_Click);
             // 
             // NextButton
             // 
@@ -237,12 +238,13 @@
             this.richTextBox1.TabIndex = 18;
             this.richTextBox1.Text = "";
             // 
-            // textBox2
+            // ModeStatus
             // 
-            this.textBox2.Location = new System.Drawing.Point(450, 334);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(82, 20);
-            this.textBox2.TabIndex = 19;
+            this.ModeStatus.Location = new System.Drawing.Point(450, 334);
+            this.ModeStatus.Name = "ModeStatus";
+            this.ModeStatus.Size = new System.Drawing.Size(82, 20);
+            this.ModeStatus.TabIndex = 19;
+            this.ModeStatus.TextChanged += new System.EventHandler(this.ModeStatus_TextChanged);
             // 
             // vScrollBar1
             // 
@@ -257,7 +259,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(772, 778);
             this.Controls.Add(this.vScrollBar1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.ModeStatus);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.EnterButton);
             this.Controls.Add(this.Char11);
@@ -305,7 +307,7 @@
         private System.Windows.Forms.Button Char11;
         private System.Windows.Forms.Button EnterButton;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox ModeStatus;
         private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
