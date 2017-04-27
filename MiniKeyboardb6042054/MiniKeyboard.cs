@@ -44,22 +44,24 @@ namespace MiniKeyboardb6042054
 
         private void Char8_Click(object sender, EventArgs e)
         {
-            Char8T.Start();
+            
 
             if (ModeStatus.Text == "Multi-Press")
             {
+                Char8T.Start();
+
                 click++;
 
                 switch (click)
                 {
-                    case 1: richTextBox1.Text = "a"; break;
-                    case 2: richTextBox1.Text = "b"; break;
-                    case 3: richTextBox1.Text = "c"; break;
-                    case 4: richTextBox1.Text = "8"; break;
-                    case 5: richTextBox1.Text = "A"; break;
-                    case 6: richTextBox1.Text = "B"; break;
-                    case 7: richTextBox1.Text = "C"; break;
-                    case 8: click = 1; richTextBox1.Text = "a"; break;
+                    case 1: richTextBox1.Text = richTextBox1.Text + "a"; break;
+                    case 2: richTextBox1.Text = richTextBox1.Text + "b"; break;
+                    case 3: richTextBox1.Text = richTextBox1.Text + "c"; break;
+                    case 4: richTextBox1.Text = richTextBox1.Text + "8"; break;
+                    case 5: richTextBox1.Text = richTextBox1.Text + "A"; break;
+                    case 6: richTextBox1.Text = richTextBox1.Text + "B"; break;
+                    case 7: richTextBox1.Text = richTextBox1.Text + "C"; break;
+                    case 8: click = 1; richTextBox1.Text = richTextBox1.Text + "a"; break;
                 }
 
             }
@@ -274,6 +276,12 @@ namespace MiniKeyboardb6042054
                 case 2: richTextBox1.Text = "0"; break;
                 case 4: click = 1; richTextBox1.Text = " "; break;
             }
+        }
+
+        private void Char8T_Tick(object sender, EventArgs e)
+        {
+            click = 0;
+
         }
     }
 }

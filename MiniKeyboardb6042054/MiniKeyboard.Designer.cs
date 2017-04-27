@@ -466,6 +466,7 @@
             // Char8T
             // 
             this.Char8T.Interval = 500;
+            this.Char8T.Tick += new System.EventHandler(this.Char8T_Tick);
             // 
             // textBox2
             // 
