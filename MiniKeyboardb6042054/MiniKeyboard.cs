@@ -17,9 +17,10 @@ namespace MiniKeyboardb6042054
     {
 
         int click;
-        string store;
+        //string store;
         //string tempstore;
         string str_keystrokes;
+        string CFile_Name;
 
 
         public MiniKeyboard()
@@ -58,6 +59,7 @@ namespace MiniKeyboardb6042054
                 click++;
 
                 str_keystrokes = "8";
+                textBox2.Text = textBox2.Text + str_keystrokes;
 
                 switch (click)
                 {
@@ -102,6 +104,7 @@ namespace MiniKeyboardb6042054
                 click++;
 
                 str_keystrokes = "9";
+                textBox2.Text = textBox2.Text + str_keystrokes;
 
                 switch (click)
                 {
@@ -127,6 +130,7 @@ namespace MiniKeyboardb6042054
                 click++;
 
                 str_keystrokes = "4";
+                textBox2.Text = textBox2.Text + str_keystrokes;
 
                 switch (click)
                 {
@@ -149,6 +153,7 @@ namespace MiniKeyboardb6042054
                 click++;
 
                 str_keystrokes = "5";
+                textBox2.Text = textBox2.Text + str_keystrokes;
 
                 switch (click)
                 {
@@ -171,6 +176,7 @@ namespace MiniKeyboardb6042054
                 click++;
 
                 str_keystrokes = "6";
+                textBox2.Text = textBox2.Text + str_keystrokes;
 
                 switch (click)
                 {
@@ -193,6 +199,7 @@ namespace MiniKeyboardb6042054
                 click++;
 
                 str_keystrokes = "1";
+                textBox2.Text = textBox2.Text + str_keystrokes;
 
                 switch (click)
                 {
@@ -217,6 +224,7 @@ namespace MiniKeyboardb6042054
                 click++;
 
                 str_keystrokes = "2";
+                textBox2.Text = textBox2.Text + str_keystrokes;
 
                 switch (click)
                 {
@@ -239,6 +247,7 @@ namespace MiniKeyboardb6042054
                 click++;
 
                 str_keystrokes = "3";
+                textBox2.Text = textBox2.Text + str_keystrokes;
 
                 switch (click)
                 {
@@ -261,6 +270,7 @@ namespace MiniKeyboardb6042054
             click++;
 
             str_keystrokes = "7";
+            textBox2.Text = textBox2.Text + str_keystrokes;
 
             switch (click)
             {
@@ -280,6 +290,7 @@ namespace MiniKeyboardb6042054
             click++;
 
             str_keystrokes = "*";
+            textBox2.Text = textBox2.Text + str_keystrokes;
 
             switch (click)
             {
@@ -295,6 +306,8 @@ namespace MiniKeyboardb6042054
             click++;
 
             str_keystrokes = "#";
+            textBox2.Text = textBox2.Text + str_keystrokes;
+
             switch (click)
             {
                 case 1: richTextBox1.Text = "#"; break;
@@ -321,9 +334,10 @@ namespace MiniKeyboardb6042054
             
            //richTextBox1.AppendText();
             click = 0;
-            store = tempstore;
-            richTextBox1.Text = richTextBox1.Text + tempstore;
+            //store = tempstore;
+            //richTextBox1.Text = richTextBox1.Text + tempstore;
 
+            
         }
 
         private void EnterButton_Click(object sender, EventArgs e)
@@ -336,6 +350,26 @@ namespace MiniKeyboardb6042054
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (CFile_Name == "")
+            {
+                saveFileDialog1.InitialDirectory = "C:\\";
+
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    StreamWriter OutputStream = File.CreateText(saveFileDialog1.FileName);
+                    OutputStream.Write(textBox1.Text);
+                    CFile_Name = saveFileDialog1.FileName;
+                    OutputStream.Close();
+                }
+            }
+            else
+            {
+                saveToolStripMenuItem_Click(sender, e);
+            }
         }
     }
 }
