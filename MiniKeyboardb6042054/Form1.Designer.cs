@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.ModeButton = new System.Windows.Forms.Button();
             this.NextButton = new System.Windows.Forms.Button();
@@ -49,6 +50,18 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.ModeStatus = new System.Windows.Forms.TextBox();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.listBox5 = new System.Windows.Forms.ListBox();
+            this.listBox6 = new System.Windows.Forms.ListBox();
+            this.listBox7 = new System.Windows.Forms.ListBox();
+            this.listBox8 = new System.Windows.Forms.ListBox();
+            this.listBox9 = new System.Windows.Forms.ListBox();
+            this.listBox10 = new System.Windows.Forms.ListBox();
+            this.listBox11 = new System.Windows.Forms.ListBox();
+            this.Char8T = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // textBox1
@@ -256,11 +269,198 @@
             this.vScrollBar1.Size = new System.Drawing.Size(20, 260);
             this.vScrollBar1.TabIndex = 20;
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            ".",
+            ",",
+            "\"",
+            "7",
+            "\'",
+            ":",
+            ";"});
+            this.listBox1.Location = new System.Drawing.Point(587, 478);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(33, 43);
+            this.listBox1.TabIndex = 21;
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Items.AddRange(new object[] {
+            "a",
+            "b",
+            "c",
+            "8",
+            "A",
+            "B",
+            "C"});
+            this.listBox2.Location = new System.Drawing.Point(635, 478);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(33, 43);
+            this.listBox2.TabIndex = 22;
+            // 
+            // listBox3
+            // 
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.Items.AddRange(new object[] {
+            "d",
+            "e",
+            "f",
+            "9",
+            "D",
+            "E",
+            "F"});
+            this.listBox3.Location = new System.Drawing.Point(683, 478);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(33, 43);
+            this.listBox3.TabIndex = 23;
+            // 
+            // listBox4
+            // 
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.Items.AddRange(new object[] {
+            "g",
+            "h",
+            "i",
+            "4",
+            "G",
+            "H",
+            "I"});
+            this.listBox4.Location = new System.Drawing.Point(587, 535);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.Size = new System.Drawing.Size(33, 43);
+            this.listBox4.TabIndex = 24;
+            // 
+            // listBox5
+            // 
+            this.listBox5.FormattingEnabled = true;
+            this.listBox5.Items.AddRange(new object[] {
+            "j",
+            "k",
+            "l",
+            "5",
+            "J",
+            "K",
+            "L"});
+            this.listBox5.Location = new System.Drawing.Point(635, 535);
+            this.listBox5.Name = "listBox5";
+            this.listBox5.Size = new System.Drawing.Size(33, 43);
+            this.listBox5.TabIndex = 25;
+            // 
+            // listBox6
+            // 
+            this.listBox6.FormattingEnabled = true;
+            this.listBox6.Items.AddRange(new object[] {
+            "m",
+            "n",
+            "o",
+            "6",
+            "M",
+            "N",
+            "O"});
+            this.listBox6.Location = new System.Drawing.Point(683, 535);
+            this.listBox6.Name = "listBox6";
+            this.listBox6.Size = new System.Drawing.Size(33, 43);
+            this.listBox6.TabIndex = 26;
+            // 
+            // listBox7
+            // 
+            this.listBox7.FormattingEnabled = true;
+            this.listBox7.Items.AddRange(new object[] {
+            "p",
+            "q",
+            "r",
+            "s",
+            "1",
+            "P",
+            "Q",
+            "R",
+            "S"});
+            this.listBox7.Location = new System.Drawing.Point(587, 592);
+            this.listBox7.Name = "listBox7";
+            this.listBox7.Size = new System.Drawing.Size(33, 43);
+            this.listBox7.TabIndex = 27;
+            // 
+            // listBox8
+            // 
+            this.listBox8.FormattingEnabled = true;
+            this.listBox8.Items.AddRange(new object[] {
+            "t",
+            "u",
+            "v",
+            "2",
+            "T",
+            "U",
+            "V"});
+            this.listBox8.Location = new System.Drawing.Point(635, 592);
+            this.listBox8.Name = "listBox8";
+            this.listBox8.Size = new System.Drawing.Size(33, 43);
+            this.listBox8.TabIndex = 28;
+            // 
+            // listBox9
+            // 
+            this.listBox9.FormattingEnabled = true;
+            this.listBox9.Items.AddRange(new object[] {
+            "w",
+            "x",
+            "y",
+            "z",
+            "3",
+            "W",
+            "X",
+            "Y",
+            "Z"});
+            this.listBox9.Location = new System.Drawing.Point(683, 592);
+            this.listBox9.Name = "listBox9";
+            this.listBox9.Size = new System.Drawing.Size(33, 43);
+            this.listBox9.TabIndex = 29;
+            // 
+            // listBox10
+            // 
+            this.listBox10.FormattingEnabled = true;
+            this.listBox10.Items.AddRange(new object[] {
+            "*",
+            "-",
+            "_"});
+            this.listBox10.Location = new System.Drawing.Point(587, 648);
+            this.listBox10.Name = "listBox10";
+            this.listBox10.Size = new System.Drawing.Size(33, 43);
+            this.listBox10.TabIndex = 30;
+            // 
+            // listBox11
+            // 
+            this.listBox11.FormattingEnabled = true;
+            this.listBox11.Items.AddRange(new object[] {
+            "#",
+            "-",
+            "_"});
+            this.listBox11.Location = new System.Drawing.Point(683, 648);
+            this.listBox11.Name = "listBox11";
+            this.listBox11.Size = new System.Drawing.Size(33, 43);
+            this.listBox11.TabIndex = 31;
+            // 
+            // Char8T
+            // 
+            this.Char8T.Interval = 300;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(772, 778);
+            this.Controls.Add(this.listBox11);
+            this.Controls.Add(this.listBox10);
+            this.Controls.Add(this.listBox9);
+            this.Controls.Add(this.listBox8);
+            this.Controls.Add(this.listBox7);
+            this.Controls.Add(this.listBox6);
+            this.Controls.Add(this.listBox5);
+            this.Controls.Add(this.listBox4);
+            this.Controls.Add(this.listBox3);
+            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.ModeStatus);
             this.Controls.Add(this.richTextBox1);
@@ -312,6 +512,18 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.TextBox ModeStatus;
         private System.Windows.Forms.VScrollBar vScrollBar1;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ListBox listBox4;
+        private System.Windows.Forms.ListBox listBox5;
+        private System.Windows.Forms.ListBox listBox6;
+        private System.Windows.Forms.ListBox listBox7;
+        private System.Windows.Forms.ListBox listBox8;
+        private System.Windows.Forms.ListBox listBox9;
+        private System.Windows.Forms.ListBox listBox10;
+        private System.Windows.Forms.ListBox listBox11;
+        private System.Windows.Forms.Timer Char8T;
     }
 }
 

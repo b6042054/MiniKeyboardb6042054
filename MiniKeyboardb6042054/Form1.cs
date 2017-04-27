@@ -33,7 +33,7 @@ namespace MiniKeyboardb6042054
 
         private void ModeStatus_TextChanged(object sender, EventArgs e)
         {
-            //ModeStatus.Text = "Multi-Press";
+            
 
         }
 
