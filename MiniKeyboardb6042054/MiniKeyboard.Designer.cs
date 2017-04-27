@@ -153,6 +153,7 @@
             this.Char9.TabIndex = 7;
             this.Char9.Text = "      9       D E F";
             this.Char9.UseVisualStyleBackColor = false;
+            this.Char9.Click += new System.EventHandler(this.Char9_Click);
             // 
             // Char4
             // 
@@ -163,6 +164,7 @@
             this.Char4.TabIndex = 8;
             this.Char4.Text = "      4       G H I";
             this.Char4.UseVisualStyleBackColor = false;
+            this.Char4.Click += new System.EventHandler(this.Char4_Click);
             // 
             // Char5
             // 
@@ -173,6 +175,7 @@
             this.Char5.TabIndex = 9;
             this.Char5.Text = "      5       J K L";
             this.Char5.UseVisualStyleBackColor = false;
+            this.Char5.Click += new System.EventHandler(this.Char5_Click);
             // 
             // Char6
             // 

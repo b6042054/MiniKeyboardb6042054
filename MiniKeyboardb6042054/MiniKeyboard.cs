@@ -48,54 +48,6 @@ namespace MiniKeyboardb6042054
 
             click++;
 
-            //if (click == 1)
-            {
-                // insert 1st (var 0) from list and insert into rich word builder textbox
-                richTextBox1.Text = "a";
-
-            }
-           // else if (click == 2)
-            {
-                richTextBox1.Text = "b";
-
-            }
-           // else if (click == 3)
-            {
-              //  richTextBox1.Text = "c";
-
-            }
-           // else if (click == 4)
-            {
-              //  richTextBox1.Text = "8";
-
-            }
-           // else if (click == 5)
-            {
-             //   richTextBox1.Text = "A";
-
-            }
-           // else if (click == 6)
-            {
-            //    richTextBox1.Text = "B";
-
-            }
-           // else if (click == 7)
-            {
-            //    richTextBox1.Text = "C";
-
-            }
-           // else if (click == 8)
-            {
-            //    click = 1;
-             //   richTextBox1.Text = "a";
-
-            }
-           
-           // if (Char8T == )
-            {
-
-            }
-
             switch (click)
             {
                 case 1: richTextBox1.Text = "a"; break;
@@ -108,7 +60,7 @@ namespace MiniKeyboardb6042054
                 case 8: click = 1; richTextBox1.Text = "a"; break;
             }
             
-            // change if statement into case statement - easier to edit and looks neater
+           
 
         }
 
@@ -121,6 +73,58 @@ namespace MiniKeyboardb6042054
         {
             this.Close();
 
+        }
+
+        private void Char9_Click(object sender, EventArgs e)
+        {
+            click++;
+
+            switch (click)
+            {
+                case 1: richTextBox1.Text = "d"; break;
+                case 2: richTextBox1.Text = "e"; break;
+                case 3: richTextBox1.Text = "f"; break;
+                case 4: richTextBox1.Text = "9"; break;
+                case 5: richTextBox1.Text = "D"; break;
+                case 6: richTextBox1.Text = "E"; break;
+                case 7: richTextBox1.Text = "F"; break;
+                case 8: click = 1; richTextBox1.Text = "d"; break;
+            }
+
+        }
+
+        private void Char4_Click(object sender, EventArgs e)
+        {
+            click++;
+
+            switch (click)
+            {
+                case 1: richTextBox1.Text = "g"; break;
+                case 2: richTextBox1.Text = "h"; break;
+                case 3: richTextBox1.Text = "i"; break;
+                case 4: richTextBox1.Text = "4"; break;
+                case 5: richTextBox1.Text = "G"; break;
+                case 6: richTextBox1.Text = "H"; break;
+                case 7: richTextBox1.Text = "I"; break;
+                case 8: click = 1; richTextBox1.Text = "g"; break;
+            }
+        }
+
+        private void Char5_Click(object sender, EventArgs e)
+        {
+            click++;
+
+            switch (click)
+            {
+                case 1: richTextBox1.Text = "j"; break;
+                case 2: richTextBox1.Text = "k"; break;
+                case 3: richTextBox1.Text = "l"; break;
+                case 4: richTextBox1.Text = "5"; break;
+                case 5: richTextBox1.Text = "J"; break;
+                case 6: richTextBox1.Text = "K"; break;
+                case 7: richTextBox1.Text = "L"; break;
+                case 8: click = 1; richTextBox1.Text = "j"; break;
+            }
         }
     }
 }
