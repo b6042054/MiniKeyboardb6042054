@@ -19,11 +19,11 @@ namespace MiniKeyboardb6042054
 
         private void ModeButton_Click(object sender, EventArgs e)
         {
-            if (ModeStatus = ("Multi-Press"))
+            if (ModeStatus.Text == "Multi-Press")
             {
             ModeStatus.Text = "Prediction";
             }
-            else if (ModeStatus = ("Prediction")) 
+            else if (ModeStatus.Text == "Prediction") 
             {
             ModeStatus.Text = "Multi-Press";
             }
@@ -33,7 +33,12 @@ namespace MiniKeyboardb6042054
 
         private void ModeStatus_TextChanged(object sender, EventArgs e)
         {
-            ModeStatus.Text = "Multi-Press";
+            //ModeStatus.Text = "Multi-Press";
+
+        }
+
+        private void Char8_Click(object sender, EventArgs e)
+        {
 
         }
     }

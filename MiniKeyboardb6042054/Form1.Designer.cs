@@ -119,6 +119,7 @@
             this.Char8.TabIndex = 6;
             this.Char8.Text = "      8       A B C";
             this.Char8.UseVisualStyleBackColor = false;
+            this.Char8.Click += new System.EventHandler(this.Char8_Click);
             // 
             // Char9
             // 
@@ -244,6 +245,8 @@
             this.ModeStatus.Name = "ModeStatus";
             this.ModeStatus.Size = new System.Drawing.Size(82, 20);
             this.ModeStatus.TabIndex = 19;
+            this.ModeStatus.Text = "Multi-Press";
+            this.ModeStatus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ModeStatus.TextChanged += new System.EventHandler(this.ModeStatus_TextChanged);
             // 
             // vScrollBar1
