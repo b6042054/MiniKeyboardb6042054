@@ -1,6 +1,6 @@
 ﻿namespace MiniKeyboardb6042054
 {
-    partial class Form1
+    partial class MiniKeyboard
     {
         /// <summary>
         /// Required designer variable.
@@ -62,6 +62,7 @@
             this.listBox10 = new System.Windows.Forms.ListBox();
             this.listBox11 = new System.Windows.Forms.ListBox();
             this.Char8T = new System.Windows.Forms.Timer(this.components);
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -445,11 +446,19 @@
             // 
             this.Char8T.Interval = 300;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(593, 360);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(116, 20);
+            this.textBox2.TabIndex = 32;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(772, 778);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.listBox11);
             this.Controls.Add(this.listBox10);
             this.Controls.Add(this.listBox9);
@@ -524,6 +533,7 @@
         private System.Windows.Forms.ListBox listBox10;
         private System.Windows.Forms.ListBox listBox11;
         private System.Windows.Forms.Timer Char8T;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

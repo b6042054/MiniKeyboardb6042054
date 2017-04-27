@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MiniKeyboardb6042054
 {
-    public partial class Form1 : Form
+    public partial class MiniKeyboard : Form
     {
-        public Form1()
+        public MiniKeyboard()
         {
             InitializeComponent();
         }
