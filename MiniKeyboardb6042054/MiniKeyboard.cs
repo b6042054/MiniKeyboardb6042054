@@ -16,7 +16,8 @@ namespace MiniKeyboardb6042054
     {
 
         int click;
-        //string store;
+        string store;
+        string tempstore;
 
         public MiniKeyboard()
         {
@@ -97,15 +98,17 @@ namespace MiniKeyboardb6042054
 
                 switch (click)
                 {
-                    case 1: richTextBox1.Text = "d"; break;
-                    case 2: richTextBox1.Text = "e"; break;
-                    case 3: richTextBox1.Text = "f"; break;
-                    case 4: richTextBox1.Text = "9"; break;
-                    case 5: richTextBox1.Text = "D"; break;
-                    case 6: richTextBox1.Text = "E"; break;
-                    case 7: richTextBox1.Text = "F"; break;
-                    case 8: click = 1;  richTextBox1.Text = "d"; break;
+                    case 1: store = "d";  richTextBox1.Text = "d"; break;
+                    case 2: store = "e";  richTextBox1.Text = "e"; break;
+                    case 3: store = "f";  richTextBox1.Text = "f"; break;
+                    case 4: store = "9";  richTextBox1.Text = "9"; break;
+                    case 5: store = "D";  richTextBox1.Text = "D"; break;
+                    case 6: store = "E";  richTextBox1.Text = "E"; break;
+                    case 7: store = "F";  richTextBox1.Text = "F"; break;
+                    case 8: click = 1; store = "d";   richTextBox1.Text = "d"; break;
                 }
+                 
+
             }
         }
 
@@ -290,6 +293,8 @@ namespace MiniKeyboardb6042054
             
            //richTextBox1.AppendText();
             click = 0;
+            store = tempstore;
+            richTextBox1.Text = richTextBox1.Text + tempstore;
 
         }
     }
