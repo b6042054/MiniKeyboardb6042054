@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace MiniKeyboardb6042054
 {
@@ -17,7 +18,9 @@ namespace MiniKeyboardb6042054
 
         int click;
         string store;
-        string tempstore;
+        //string tempstore;
+        string str_keystrokes;
+
 
         public MiniKeyboard()
         {
@@ -93,7 +96,6 @@ namespace MiniKeyboardb6042054
             if (ModeStatus.Text == "Multi-Press")
             {
                 
-
                 click++;
 
                 switch (click)
@@ -280,13 +282,13 @@ namespace MiniKeyboardb6042054
         {
             click++;
 
-            switch (click)
-            {
-                case 1: richTextBox1.Text = " "; break;
-                case 2: richTextBox1.Text = "0"; break;
-                case 3: click = 1; richTextBox1.Text = " "; break;
-            }
+
+            str_keystrokes = "";
+            textBox1.AppendText(richTextBox1.Text + " ");
+
+
         }
+
 
         private void Char8T_Tick(object sender, EventArgs e)
         {
