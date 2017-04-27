@@ -44,52 +44,70 @@ namespace MiniKeyboardb6042054
 
         private void Char8_Click(object sender, EventArgs e)
         {
-            //Char8T.Start();
+            Char8T.Start();
 
             click++;
 
-            if (click == 1)
+            //if (click == 1)
             {
                 // insert 1st (var 0) from list and insert into rich word builder textbox
                 richTextBox1.Text = "a";
 
             }
-            else if (click == 2)
+           // else if (click == 2)
             {
                 richTextBox1.Text = "b";
 
             }
-            else if (click == 3)
+           // else if (click == 3)
             {
-                richTextBox1.Text = "c";
+              //  richTextBox1.Text = "c";
 
             }
-            else if (click == 4)
+           // else if (click == 4)
             {
-                richTextBox1.Text = "8";
+              //  richTextBox1.Text = "8";
 
             }
-            else if (click == 5)
+           // else if (click == 5)
             {
-                richTextBox1.Text = "A";
+             //   richTextBox1.Text = "A";
 
             }
-            else if (click == 6)
+           // else if (click == 6)
             {
-                richTextBox1.Text = "B";
+            //    richTextBox1.Text = "B";
 
             }
-            else if (click == 7)
+           // else if (click == 7)
             {
-                richTextBox1.Text = "C";
+            //    richTextBox1.Text = "C";
 
             }
-            else if (click == 8)
+           // else if (click == 8)
             {
-                click = 1;
-                richTextBox1.Text = "a";
+            //    click = 1;
+             //   richTextBox1.Text = "a";
 
             }
+           
+           // if (Char8T == )
+            {
+
+            }
+
+            switch (click)
+            {
+                case 1: richTextBox1.Text = "a"; break;
+                case 2: richTextBox1.Text = "b"; break;
+                case 3: richTextBox1.Text = "c"; break;
+                case 4: richTextBox1.Text = "8"; break;
+                case 5: richTextBox1.Text = "A"; break;
+                case 6: richTextBox1.Text = "B"; break;
+                case 7: richTextBox1.Text = "C"; break;
+                case 8: click = 1; richTextBox1.Text = "a"; break;
+            }
+            
             // change if statement into case statement - easier to edit and looks neater
 
         }
