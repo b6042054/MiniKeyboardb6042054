@@ -198,5 +198,54 @@ namespace MiniKeyboardb6042054
                 case 10: click = 1; richTextBox1.Text = "w"; break;
             }
         }
+
+        private void Char7_Click(object sender, EventArgs e)
+        {
+            click++;
+
+            switch (click)
+            {
+                case 1: richTextBox1.Text = "."; break;
+                case 2: richTextBox1.Text = ","; break;
+                case 3: richTextBox1.Text = "'"; break;
+                case 4: richTextBox1.Text = "7"; break;
+                case 5: richTextBox1.Text = "'"; break;
+                case 6: richTextBox1.Text = ":"; break;
+                case 7: richTextBox1.Text = ";"; break;
+                case 8: click = 1; richTextBox1.Text = "."; break;
+            }
+        }
+
+        private void Char10_Click(object sender, EventArgs e)
+        {
+            switch (click)
+            {
+                case 1: richTextBox1.Text = "*"; break;
+                case 2: richTextBox1.Text = "-"; break;
+                case 3: richTextBox1.Text = "_"; break;
+                case 4: click = 1; richTextBox1.Text = "*"; break;
+            }
+        }
+
+        private void Char11_Click(object sender, EventArgs e)
+        {
+            switch (click)
+            {
+                case 1: richTextBox1.Text = "#"; break;
+                case 2: richTextBox1.Text = "-"; break;
+                case 3: richTextBox1.Text = "_"; break;
+                case 4: click = 1; richTextBox1.Text = "#"; break;
+            }
+        }
+
+        private void Char0_Click(object sender, EventArgs e)
+        {
+            switch (click)
+            {
+                case 1: richTextBox1.Text = " "; break;
+                case 2: richTextBox1.Text = "0"; break;
+                case 4: click = 1; richTextBox1.Text = " "; break;
+            }
+        }
     }
 }

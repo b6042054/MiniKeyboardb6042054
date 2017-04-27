@@ -132,6 +132,7 @@
             this.Char7.TabIndex = 5;
             this.Char7.Text = "     7        . , \"";
             this.Char7.UseVisualStyleBackColor = false;
+            this.Char7.Click += new System.EventHandler(this.Char7_Click);
             // 
             // Char8
             // 
@@ -230,6 +231,7 @@
             this.Char10.TabIndex = 14;
             this.Char10.Text = "* - _";
             this.Char10.UseVisualStyleBackColor = false;
+            this.Char10.Click += new System.EventHandler(this.Char10_Click);
             // 
             // Char0
             // 
@@ -240,6 +242,7 @@
             this.Char0.TabIndex = 15;
             this.Char0.Text = "    000      [ ___ ]";
             this.Char0.UseVisualStyleBackColor = false;
+            this.Char0.Click += new System.EventHandler(this.Char0_Click);
             // 
             // Char11
             // 
@@ -250,6 +253,7 @@
             this.Char11.TabIndex = 16;
             this.Char11.Text = "     #      0 0 0";
             this.Char11.UseVisualStyleBackColor = false;
+            this.Char11.Click += new System.EventHandler(this.Char11_Click);
             // 
             // EnterButton
             // 
