@@ -197,6 +197,7 @@
             this.Char1.TabIndex = 11;
             this.Char1.Text = "     1      P Q R S";
             this.Char1.UseVisualStyleBackColor = false;
+            this.Char1.Click += new System.EventHandler(this.Char1_Click);
             // 
             // Char2
             // 
@@ -207,6 +208,7 @@
             this.Char2.TabIndex = 12;
             this.Char2.Text = "      2       T U V";
             this.Char2.UseVisualStyleBackColor = false;
+            this.Char2.Click += new System.EventHandler(this.Char2_Click);
             // 
             // Char3
             // 
@@ -217,6 +219,7 @@
             this.Char3.TabIndex = 13;
             this.Char3.Text = "     3      W X Y Z";
             this.Char3.UseVisualStyleBackColor = false;
+            this.Char3.Click += new System.EventHandler(this.Char3_Click);
             // 
             // Char10
             // 
