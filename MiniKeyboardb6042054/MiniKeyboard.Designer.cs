@@ -252,6 +252,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(182, 28);
             this.richTextBox1.TabIndex = 18;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // ModeStatus
             // 
@@ -453,7 +454,7 @@
             this.textBox2.Size = new System.Drawing.Size(116, 20);
             this.textBox2.TabIndex = 32;
             // 
-            // Form1
+            // MiniKeyboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -491,7 +492,7 @@
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.ModeButton);
             this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
+            this.Name = "MiniKeyboard";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

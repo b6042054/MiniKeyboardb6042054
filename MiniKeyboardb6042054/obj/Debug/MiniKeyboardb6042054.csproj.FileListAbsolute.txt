@@ -5,10 +5,10 @@ f:\mywork\visual studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\
 f:\mywork\visual studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.csproj.GenerateResource.Cache
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\bin\Debug\MiniKeyboardb6042054.exe.config
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.csprojResolveAssemblyReference.cache
-\\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.Form1.resources
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.Properties.Resources.resources
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.csproj.GenerateResource.Cache
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\bin\Debug\MiniKeyboardb6042054.exe
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\bin\Debug\MiniKeyboardb6042054.pdb
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.exe
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.pdb
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME9\4\b6042054\MyWork\Visual Studio 2013\Projects\MiniKeyboardb6042054\MiniKeyboardb6042054\obj\Debug\MiniKeyboardb6042054.MiniKeyboard.resources
