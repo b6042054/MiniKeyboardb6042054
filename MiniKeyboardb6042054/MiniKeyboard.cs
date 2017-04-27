@@ -16,7 +16,7 @@ namespace MiniKeyboardb6042054
     {
 
         int click;
-        string store;
+        //string store;
 
         public MiniKeyboard()
         {
@@ -65,7 +65,7 @@ namespace MiniKeyboardb6042054
                     case 8: click = 1; richTextBox1.Text = richTextBox1.Text + "a"; break;
                        
                 }
-                Char8T_Tick(click, e);
+                //Char8T_Tick(click, e);
 
             }
             else
@@ -288,7 +288,7 @@ namespace MiniKeyboardb6042054
         private void Char8T_Tick(object sender, EventArgs e)
         {
             
-           richTextBox1.Text += store;
+           //richTextBox1.AppendText();
             click = 0;
 
         }

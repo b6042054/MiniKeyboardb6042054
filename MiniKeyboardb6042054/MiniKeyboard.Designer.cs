@@ -71,6 +71,17 @@
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Char7T = new System.Windows.Forms.Timer(this.components);
+            this.Char9T = new System.Windows.Forms.Timer(this.components);
+            this.Char4T = new System.Windows.Forms.Timer(this.components);
+            this.Char5T = new System.Windows.Forms.Timer(this.components);
+            this.Char6T = new System.Windows.Forms.Timer(this.components);
+            this.Char1T = new System.Windows.Forms.Timer(this.components);
+            this.Char2T = new System.Windows.Forms.Timer(this.components);
+            this.Char3T = new System.Windows.Forms.Timer(this.components);
+            this.Char10T = new System.Windows.Forms.Timer(this.components);
+            this.Char0T = new System.Windows.Forms.Timer(this.components);
+            this.Char11T = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -535,6 +546,46 @@
             this.configureToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.configureToolStripMenuItem.Text = "Configure";
             // 
+            // Char7T
+            // 
+            this.Char7T.Interval = 500;
+            // 
+            // Char9T
+            // 
+            this.Char9T.Interval = 500;
+            // 
+            // Char4T
+            // 
+            this.Char4T.Interval = 500;
+            // 
+            // Char5T
+            // 
+            this.Char5T.Interval = 500;
+            // 
+            // Char6T
+            // 
+            this.Char6T.Interval = 500;
+            // 
+            // Char1T
+            // 
+            this.Char1T.Interval = 500;
+            // 
+            // Char2T
+            // 
+            this.Char2T.Interval = 500;
+            // 
+            // Char3T
+            // 
+            this.Char3T.Interval = 500;
+            // 
+            // Char10T
+            // 
+            this.Char10T.Interval = 500;
+            // 
+            // Char0T
+            // 
+            this.Char0T.Interval = 500;
+            // 
             // MiniKeyboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -628,6 +679,17 @@
         private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem configureToolStripMenuItem;
+        private System.Windows.Forms.Timer Char7T;
+        private System.Windows.Forms.Timer Char9T;
+        private System.Windows.Forms.Timer Char4T;
+        private System.Windows.Forms.Timer Char5T;
+        private System.Windows.Forms.Timer Char6T;
+        private System.Windows.Forms.Timer Char1T;
+        private System.Windows.Forms.Timer Char2T;
+        private System.Windows.Forms.Timer Char3T;
+        private System.Windows.Forms.Timer Char10T;
+        private System.Windows.Forms.Timer Char0T;
+        private System.Windows.Forms.Timer Char11T;
     }
 }
 
