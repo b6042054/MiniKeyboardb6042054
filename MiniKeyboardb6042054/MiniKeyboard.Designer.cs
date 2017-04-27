@@ -186,6 +186,7 @@
             this.Char6.TabIndex = 10;
             this.Char6.Text = "      6       M N O";
             this.Char6.UseVisualStyleBackColor = false;
+            this.Char6.Click += new System.EventHandler(this.Char6_Click);
             // 
             // Char1
             // 
