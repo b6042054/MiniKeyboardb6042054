@@ -275,6 +275,7 @@
             this.EnterButton.TabIndex = 17;
             this.EnterButton.Text = "Enter";
             this.EnterButton.UseVisualStyleBackColor = false;
+            this.EnterButton.Click += new System.EventHandler(this.EnterButton_Click);
             // 
             // richTextBox1
             // 
@@ -485,6 +486,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(116, 20);
             this.textBox2.TabIndex = 32;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // menuStrip1
             // 

@@ -57,6 +57,8 @@ namespace MiniKeyboardb6042054
 
                 click++;
 
+                str_keystrokes = "8";
+
                 switch (click)
                 {
                     case 1: richTextBox1.Text = richTextBox1.Text + "a"; break;
@@ -69,7 +71,8 @@ namespace MiniKeyboardb6042054
                     case 8: click = 1; richTextBox1.Text = richTextBox1.Text + "a"; break;
                        
                 }
-                //Char8T_Tick(click, e);
+
+                
 
             }
             else
@@ -98,6 +101,8 @@ namespace MiniKeyboardb6042054
                 
                 click++;
 
+                str_keystrokes = "9";
+
                 switch (click)
                 {
                     case 1: store = "d";  richTextBox1.Text = "d"; break;
@@ -121,6 +126,8 @@ namespace MiniKeyboardb6042054
             {
                 click++;
 
+                str_keystrokes = "4";
+
                 switch (click)
                 {
                     case 1: richTextBox1.Text = "g"; break;
@@ -140,6 +147,8 @@ namespace MiniKeyboardb6042054
             if (ModeStatus.Text == "Multi-Press")
             {
                 click++;
+
+                str_keystrokes = "5";
 
                 switch (click)
                 {
@@ -161,6 +170,8 @@ namespace MiniKeyboardb6042054
             {
                 click++;
 
+                str_keystrokes = "6";
+
                 switch (click)
                 {
                     case 1: richTextBox1.Text = "m"; break;
@@ -180,6 +191,8 @@ namespace MiniKeyboardb6042054
             if (ModeStatus.Text == "Multi-Press")
             {
                 click++;
+
+                str_keystrokes = "1";
 
                 switch (click)
                 {
@@ -203,6 +216,8 @@ namespace MiniKeyboardb6042054
             {
                 click++;
 
+                str_keystrokes = "2";
+
                 switch (click)
                 {
                     case 1: richTextBox1.Text = "t"; break;
@@ -222,6 +237,8 @@ namespace MiniKeyboardb6042054
             if (ModeStatus.Text == "Multi-Press")
             {
                 click++;
+
+                str_keystrokes = "3";
 
                 switch (click)
                 {
@@ -243,6 +260,8 @@ namespace MiniKeyboardb6042054
         {
             click++;
 
+            str_keystrokes = "7";
+
             switch (click)
             {
                 case 1: richTextBox1.Text = "."; break;
@@ -258,6 +277,10 @@ namespace MiniKeyboardb6042054
 
         private void Char10_Click(object sender, EventArgs e)
         {
+            click++;
+
+            str_keystrokes = "*";
+
             switch (click)
             {
                 case 1: richTextBox1.Text = "*"; break;
@@ -269,6 +292,9 @@ namespace MiniKeyboardb6042054
 
         private void Char11_Click(object sender, EventArgs e)
         {
+            click++;
+
+            str_keystrokes = "#";
             switch (click)
             {
                 case 1: richTextBox1.Text = "#"; break;
@@ -282,9 +308,9 @@ namespace MiniKeyboardb6042054
         {
             click++;
 
-
             str_keystrokes = "";
             textBox1.AppendText(richTextBox1.Text + " ");
+            
 
 
         }
@@ -297,6 +323,18 @@ namespace MiniKeyboardb6042054
             click = 0;
             store = tempstore;
             richTextBox1.Text = richTextBox1.Text + tempstore;
+
+        }
+
+        private void EnterButton_Click(object sender, EventArgs e)
+        {
+
+            richTextBox1.AppendText(Environment.NewLine);
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
