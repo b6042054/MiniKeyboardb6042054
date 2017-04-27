@@ -46,21 +46,27 @@ namespace MiniKeyboardb6042054
         {
             Char8T.Start();
 
-            click++;
-
-            switch (click)
+            if (ModeStatus.Text == "Multi-Press")
             {
-                case 1: richTextBox1.Text = "a"; break;
-                case 2: richTextBox1.Text = "b"; break;
-                case 3: richTextBox1.Text = "c"; break;
-                case 4: richTextBox1.Text = "8"; break;
-                case 5: richTextBox1.Text = "A"; break;
-                case 6: richTextBox1.Text = "B"; break;
-                case 7: richTextBox1.Text = "C"; break;
-                case 8: click = 1; richTextBox1.Text = "a"; break;
+                click++;
+
+                switch (click)
+                {
+                    case 1: richTextBox1.Text = "a"; break;
+                    case 2: richTextBox1.Text = "b"; break;
+                    case 3: richTextBox1.Text = "c"; break;
+                    case 4: richTextBox1.Text = "8"; break;
+                    case 5: richTextBox1.Text = "A"; break;
+                    case 6: richTextBox1.Text = "B"; break;
+                    case 7: richTextBox1.Text = "C"; break;
+                    case 8: click = 1; richTextBox1.Text = "a"; break;
+                }
+
             }
-            
-           
+            else
+            {
+                
+            }
 
         }
 
