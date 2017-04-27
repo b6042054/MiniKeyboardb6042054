@@ -10,8 +10,13 @@ using System.Windows.Forms;
 
 namespace MiniKeyboardb6042054
 {
+    
+    
     public partial class MiniKeyboard : Form
     {
+
+        int click;
+
         public MiniKeyboard()
         {
             InitializeComponent();
@@ -39,6 +44,9 @@ namespace MiniKeyboardb6042054
 
         private void Char8_Click(object sender, EventArgs e)
         {
+            Char8T.Start();
+
+
 
         }
     }
